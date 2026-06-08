@@ -17,6 +17,10 @@
   --line2: #efece6;
   --accent: #ea580c;
   --accent-soft: rgba(234, 88, 12, 0.08);
+  /* Deeper orange used ONLY for accent-colored text on light backgrounds so it
+     clears WCAG AA (4.5:1) — including the urgent warn band, whose double
+     accent-soft tint is the worst case. Brand fills/buttons/borders/icons keep --accent. */
+  --accent-ink: #b23c0a;
   --ink-btn: #11151b;
   --good: #15803d;
   --good-soft: #eef8f0;
@@ -551,7 +555,7 @@ a {
   background: var(--warn-soft);
 }
 .result-band[data-tone="warn"] {
-  color: var(--accent);
+  color: var(--accent-ink);
   background: var(--accent-soft);
 }
 .result-band[data-tone="danger"] {
@@ -1327,7 +1331,7 @@ a {
   color: var(--ink3);
 }
 .jbd-backlink-footer__brand a {
-  color: var(--accent);
+  color: var(--accent-ink);
   text-decoration: none;
 }
 .jbd-backlink-footer__brand a:hover {
@@ -1347,7 +1351,7 @@ a {
   transition: color 0.2s;
 }
 .jbd-backlink-footer__links a:hover {
-  color: var(--accent);
+  color: var(--accent-ink);
 }
 @media (max-width: 560px) {
   .jbd-backlink-footer__inner {
