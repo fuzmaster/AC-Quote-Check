@@ -17,8 +17,7 @@
     <meta name="author" content="Jacob Britten" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#11151b" />
-    <!-- TODO: set to the production URL once deployed -->
-    <link rel="canonical" href="https://fuzmaster.github.io/AC-Quote-Check/" />
+    <link rel="canonical" href="https://ac-quote-check.vercel.app/" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -28,7 +27,7 @@
       property="og:description"
       content="Check the math before you approve an expensive HVAC repair. Flags warranty issues, overpriced repairs, and when a second quote is worth it. Results first — no email required."
     />
-    <meta property="og:url" content="https://fuzmaster.github.io/AC-Quote-Check/" />
+    <meta property="og:url" content="https://ac-quote-check.vercel.app/" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -38,13 +37,8 @@
       content="Check the math before you approve an expensive HVAC repair. Results first — no email required."
     />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Fonts are self-hosted via @fontsource-variable/geist (imported in src/main.tsx);
+         no third-party font CDN, so no visitor-IP transfer to Google. -->
 
     <!-- Structured data -->
     <script type="application/ld+json">
@@ -52,7 +46,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "AC Quote Check",
-        "url": "https://fuzmaster.github.io/AC-Quote-Check/",
+        "url": "https://ac-quote-check.vercel.app/",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "Any",
         "description": "A client-side tool that sanity-checks an AC repair quote before you approve it: verdict, risk score, warranty warning, the $5,000 repair-or-replace rule, and questions to ask your HVAC tech.",

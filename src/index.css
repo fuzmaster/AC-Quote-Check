@@ -33,7 +33,7 @@
   --shadow-sm: 0 1px 2px rgba(16, 20, 26, 0.04), 0 1px 1px rgba(16, 20, 26, 0.03);
   --shadow: 0 10px 30px -12px rgba(16, 20, 26, 0.16), 0 2px 6px rgba(16, 20, 26, 0.05);
   --shadow-lg: 0 24px 60px -20px rgba(16, 20, 26, 0.24), 0 4px 10px rgba(16, 20, 26, 0.06);
-  font-family: "Geist", "Geist Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Geist Variable", "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -52,7 +52,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 .mono {
-  font-family: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 h1,
 h2,
@@ -360,7 +360,7 @@ a {
   text-align: center;
   font-size: 1.15rem;
   font-weight: 560;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   color: var(--ink);
   outline: none;
 }
@@ -391,7 +391,7 @@ a {
   font-size: 1.1rem;
   font-weight: 500;
   margin-right: 0.3rem;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
 }
 .money-field {
   flex: 1;
@@ -400,7 +400,7 @@ a {
   background: transparent;
   font-size: 1.15rem;
   font-weight: 560;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   color: var(--ink);
   outline: none;
 }
@@ -413,7 +413,7 @@ a {
   border-radius: 11px;
   padding: 0 1rem;
   font-size: 1rem;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   color: var(--ink);
   outline: none;
   transition: border 0.15s, box-shadow 0.15s;
@@ -612,7 +612,7 @@ a {
   letter-spacing: 0.03em;
 }
 .risk-num {
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   font-size: 1.35rem;
   font-weight: 560;
 }
@@ -780,7 +780,7 @@ a {
   display: grid;
   place-items: center;
   margin-top: 1px;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
 }
 
 .result-actions {
@@ -922,7 +922,7 @@ a {
   flex-direction: column;
 }
 .bar-seg-label b {
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   font-weight: 600;
   font-size: 0.92rem;
   margin-top: 0.15rem;
@@ -940,7 +940,7 @@ a {
   color: #fff;
 }
 .bar-total {
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   font-weight: 600;
   font-size: 1.25rem;
   margin-top: 0.9rem;
@@ -1085,7 +1085,7 @@ a {
   margin-bottom: 0.8rem;
 }
 .summary-text {
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
   font-size: 0.78rem;
   line-height: 1.55;
   color: #d7dbe1;
@@ -1231,7 +1231,7 @@ a {
   place-items: center;
   font-size: 0.74rem;
   font-weight: 600;
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", monospace;
 }
 
 /* ---------- send guide (dark CTA) ---------- */
@@ -1305,7 +1305,7 @@ a {
   background: var(--bg);
   border-top: 1px solid var(--line);
   padding: 1.5rem 1.25rem;
-  font-family: "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-family: "Geist Mono Variable", "Geist Mono", "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
 }
 .jbd-backlink-footer * {
   box-sizing: border-box;
